@@ -1,0 +1,91 @@
+!!python/object:networkx.classes.graph.Graph
+_adj:
+  1:
+    2: &id001 {}
+    3: &id002 {}
+    4: &id003 {}
+    6: &id008 {}
+    7: &id011 {}
+    8: &id014 {}
+  2:
+    1: *id001
+    5: &id005 {}
+  3:
+    1: *id002
+    4: &id004 {}
+    5: &id006 {}
+    6: &id009 {}
+    7: &id012 {}
+    8: &id015 {}
+    9: &id018 {}
+    10: &id020 {}
+  4:
+    1: *id003
+    3: *id004
+    5: &id007 {}
+  5:
+    2: *id005
+    3: *id006
+    4: *id007
+    6: &id010 {}
+    7: &id013 {}
+    8: &id016 {}
+    9: &id019 {}
+    10: &id021 {}
+  6:
+    1: *id008
+    3: *id009
+    5: *id010
+    8: &id017 {}
+  7:
+    1: *id011
+    3: *id012
+    5: *id013
+    10: &id022 {}
+  8:
+    1: *id014
+    3: *id015
+    5: *id016
+    6: *id017
+  9:
+    3: *id018
+    5: *id019
+    11: &id023 {}
+  10:
+    3: *id020
+    5: *id021
+    7: *id022
+  11:
+    9: *id023
+_node: &id025
+  1:
+    type: peer
+  2:
+    type: peer
+  3:
+    type: peer
+  4:
+    type: peer
+  5:
+    type: peer
+  6:
+    type: peer
+  7:
+    type: peer
+  8:
+    type: peer
+  9:
+    type: peer
+  10:
+    type: peer
+  11:
+    type: client
+adjlist_inner_dict_factory: &id024 !!python/name:builtins.dict ''
+adjlist_outer_dict_factory: *id024
+edge_attr_dict_factory: *id024
+graph: {}
+graph_attr_dict_factory: *id024
+node_attr_dict_factory: *id024
+node_dict_factory: *id024
+nodes: !!python/object:networkx.classes.reportviews.NodeView
+  _nodes: *id025
